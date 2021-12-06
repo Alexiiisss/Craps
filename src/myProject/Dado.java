@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * Class Dado generate a ramdom value between 1 and 6
  * @author Alexis Lopez
- * @version v 1.0.0 date 5/12/2021
+ * @version v 1.0.0 date 05/12/2021
  */
 public class Dado {
     private int cara;

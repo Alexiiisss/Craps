@@ -8,7 +8,7 @@ package myProject;
  * estado = 4 Punto winner.
  * estado = 5 Punto looser.
  * @author Alexis Lopez
- * @version V1.0.0 date 5/12/2021
+ * @version V1.0.0 date 05/12/2021
  */
 public class ModelCraps {
     private Dado dado1, dado2;
@@ -96,12 +96,12 @@ public class ModelCraps {
                 break;
             case 2: estadoToString = "Sacaste craps, has perdido!";
                 break;
-            case 3: estadoToString = "Estableciste punto en" + punto + "Debes seguir lanzando!" +
-                                        "\n pero si sacas 7 antes que " + punto + "perderás";
+            case 3: estadoToString = "Estableciste punto en" + " " + punto + " " +"Debes seguir lanzando!" +
+                                        "\n pero si sacas 7 antes que " + " " + punto + " " + "perderás";
                 break;
-            case 4: estadoToString = "Volviste a sacar" + punto + ",has ganado!";
+            case 4: estadoToString = "Volviste a sacar" + " " + punto +  " " + ",has ganado!";
                 break;
-            case 5: estadoToString = "Sacaste 7 antes que" + punto + "has perdido!";
+            case 5: estadoToString = "Sacaste 7 antes que" + " " + punto + " " + "has perdido!";
                 break;
         }
         return estadoToString;
